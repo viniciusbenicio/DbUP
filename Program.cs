@@ -23,6 +23,11 @@ if (!result.Successful)
 }
 
 Console.ForegroundColor = ConsoleColor.Green;
-Console.WriteLine("Sucesso!");
+
+foreach(var script in result.Scripts)
+{
+    Console.WriteLine($" Executado: {script.Name}");
+}
+
 Console.ResetColor();
 return 0;
