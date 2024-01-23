@@ -1,7 +1,7 @@
 ﻿using DbUp;
 using System.Reflection;
 
-var connectionString = args.FirstOrDefault() ?? "Server=localhost,1433;Database=conselho;User ID=app;Password=123@123@; TrustServerCertificate=True";
+var connectionString = args.FirstOrDefault() ?? "Server=localhost,1433;Database=FluentAPI;User ID=app;Password=123@123@; TrustServerCertificate=True";
 
 
 var upgrader = DeployChanges.To.SqlDatabase(connectionString).WithScriptsEmbeddedInAssembly(Assembly.GetExecutingAssembly()).LogToConsole().Build();

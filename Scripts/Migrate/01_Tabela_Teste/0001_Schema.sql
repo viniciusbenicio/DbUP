@@ -1,7 +1,4 @@
-﻿USE conselho
-GO
-
-If Object_Id('tb_teste') Is Null 
+﻿If Object_Id('tb_teste') Is Null 
 BEGIN
   CREATE TABLE tb_teste
   (
