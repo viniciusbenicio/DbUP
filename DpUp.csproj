@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Scripts\Migrate\03_Pedido\0001_Schema.sql" />
+    <None Remove="Scripts\Migrate\03_Pedido\0002_Populate.sql.sql" />
+    <None Remove="Scripts\Migrate\02_Usuario\0001_Schema.sql" />
+    <None Remove="Scripts\Migrate\02_Usuario\0002_Populate.sql.sql" />
     <None Remove="Scripts\Migrate\01_Tabela_Teste\0001_Schema.sql" />
     <None Remove="Scripts\Migrate\01_Tabela_Teste\0002_Populate.sql.sql" />
     <None Remove="Scripts\Objects\01 - Procedures\GetUsuario.sql" />
@@ -16,6 +20,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Scripts\Migrate\03_Pedido\0001_Schema.sql" />
+    <EmbeddedResource Include="Scripts\Migrate\03_Pedido\0002_Populate.sql.sql" />
+    <EmbeddedResource Include="Scripts\Migrate\02_Usuario\0001_Schema.sql" />
+    <EmbeddedResource Include="Scripts\Migrate\02_Usuario\0002_Populate.sql.sql" />
     <EmbeddedResource Include="Scripts\Migrate\01_Tabela_Teste\0001_Schema.sql" />
     <EmbeddedResource Include="Scripts\Migrate\01_Tabela_Teste\0002_Populate.sql.sql" />
     <EmbeddedResource Include="Scripts\Objects\01 - Procedures\GetUsuario.sql" />

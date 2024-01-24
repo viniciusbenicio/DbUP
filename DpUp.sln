@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DpUp", "DpUp.csproj", "{898
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{86E59E6A-630B-4186-BC26-D4EE9F84989A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent.API", "..\Fluent.API\Fluent.API.csproj", "{9AEDDF71-C91B-446D-94E6-34F9D2159E03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,9 +19,16 @@ Global
 		{89821086-99DD-48CE-9724-06AF7CEA1938}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89821086-99DD-48CE-9724-06AF7CEA1938}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89821086-99DD-48CE-9724-06AF7CEA1938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AEDDF71-C91B-446D-94E6-34F9D2159E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AEDDF71-C91B-446D-94E6-34F9D2159E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AEDDF71-C91B-446D-94E6-34F9D2159E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AEDDF71-C91B-446D-94E6-34F9D2159E03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AEDDF71-C91B-446D-94E6-34F9D2159E03} = {86E59E6A-630B-4186-BC26-D4EE9F84989A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D81619C-B5D6-47A1-BE2C-58FDFEE31AB2}
